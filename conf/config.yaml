@@ -1,0 +1,26 @@
+#//ChainID
+#arbitrumrinkey
+#chainid: 421611
+#arbitrumone
+chainid: 42161
+#arbitrumone
+subgraph: https://api.thegraph.com/subgraphs/name/dank-protocol/dank
+#//Accessed network node address
+#arbitrumrinkey
+#infura: https://rinkeby.arbitrum.io/rpc
+#arbitrumone
+infura: https://arb1.arbitrum.io/rpc
+#//comptrollerContract address
+#arbitrumrinkey
+#comptroller: 0x45166705ed10A91889c9B630a30e4318A2BED582
+#arbitrumone
+comptroller: 0x487eF86Eb04B842285961c3D22d6e57aDFCD2226
+
+#//The wallet private key for liquidation needs to be replaced with your own liquidation private key.
+wallet:     #// Cloud Ether Generated Address
+#//Log configuration
+log:
+  fileDir: logs          #//Directory where logs are saved
+  fileName: liquidator   #//The name of the log file, without the suffix
+  prefix:                #//The prefix of the log file name
+  level: debug           #//Log level, there are four levels of debug, info, warn, and error
